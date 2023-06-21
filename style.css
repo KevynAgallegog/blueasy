@@ -752,3 +752,129 @@ footer{
       font-size: large;
     }
   }
+  @media screen and (max-width: 480px) {
+    header {
+      height: auto;
+    }
+    .head {
+      flex-direction: column;
+    }
+    .head h1 {
+      margin-left: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    nav ul li {
+      padding: 20px 0;
+      margin: 0;
+      color: white;
+      text-align: center;
+    }
+    .texto {
+      margin-top: 50px;
+      margin-left: 0;
+    }
+    .texto h2,
+    .texto h1 {
+      width: 100%;
+      margin-left: 0;
+      font-size: medium;
+    }
+    .container {
+      padding: 30px;
+    }
+    .cafe p,
+    .imagen2 p,
+    .imagen3 p,
+    .imagen4 p {
+      font-size: 10px;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+    .cafe h1,
+    .imagen2 h1,
+    .imagen3 h1,
+    .imagen4 h1 {
+      font-size: small;
+      margin-top: 3px;
+    }
+    .container_negro {
+      padding: 10px;
+    }
+    .container3 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+    }
+    .container3_1 {
+      margin-left: 0;
+      text-align: center;
+    }
+    .imagen_video {
+      margin-top: 30px;
+    }
+    .headersito {
+      flex-direction: column;
+    }
+    #parrafo4_1 {
+      margin-left: 0;
+      text-align: center;
+    }
+    #titulo h1 {
+      margin-left: 0;
+      text-align: center;
+    }
+    .container5_5 {
+      flex-direction: column;
+    }
+    .parrafo5_1,
+    .container5_2 {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+    .container6 h1,
+    .container6 p {
+      margin-left: 0;
+      text-align: center;
+    }
+    .formularios {
+      flex-direction: column;
+      margin-left: 0;
+    }
+    .formularios input {
+      padding: 10px;
+      width: 100%;
+    }
+    .mensaje {
+      margin-left: 0;
+    }
+    .mensaje h3 {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .mensaje input {
+      padding: 10px;
+      width: 100%;
+    }
+    .btn_2 {
+      margin-top: 20px;
+      margin-left: 0;
+      text-align: center;
+    }
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .fot h3,
+    .parr {
+      margin-top: 20px;
+      margin-right: 0;
+      text-align: center;
+    }
+  }
